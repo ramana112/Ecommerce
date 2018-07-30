@@ -1,0 +1,139 @@
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+div.nav {
+ 
+    position: sticky;
+    top:0;
+    
+  }
+
+ul.navul {   
+ border-radius: 10px;
+ overflow: hidden;
+ background-color: aqua;
+ padding: 5px;
+}
+li.btn{
+    padding-left: 10%;
+    display: block;
+    text-decoration: none;
+    float: left;
+}
+a:link {
+    color: red;
+}
+/* visited link */
+a:visited {
+    color: #0066ff;
+}
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+/* selected link */
+a:active {
+    color: blue;
+}
+li a{
+text-decoration: none;
+font-size: 20px;
+}
+
+div.Aboutme{
+    border: 3px solid black;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    
+}
+div.Education{
+    background-image: url('../images/edu.jpg');
+    background-repeat: no-repeat;
+    border: 2px solid green;
+    display: none;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+div.Achievments{
+    border:2px solid #0066ff;
+    display: none;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+div.Hobbies{
+    border-radius: 60px;
+    border: 2px solid violet;
+    display: none;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;;
+}
+div.Activites{
+    border-radius: 60px;
+    border:  2px solid red;
+    display: none;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+div.ContactMe{
+    border-radius: 60px;
+    border:2px solid #0066ff;
+    display: none;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+table#edu{
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+
+}
+table td, th{
+    padding: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+ul.achv{
+    list-style-type: square;
+}
+.single-item{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.thing{
+    height: 80%;
+}
+#wrapper{
+    width: 70%;
+    margin: 0 auto;
+    overflow: visible;
+}
+.slick-slide img{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+.slick-prev {
+    left: 15px;
+    z-index: 9;
+    color: #0066ff;
+}
+.slick-next {
+    right: -25px;
+}

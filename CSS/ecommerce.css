@@ -1,0 +1,293 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+.header{
+    background-color:#232f3e;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo img{
+    width: 15%;
+    float: left;
+    
+}
+input[type=search] {
+    width: 100%;
+    padding: 12px 18px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.search{
+    width: 24%;
+    float: left;
+    padding-left: 16%;
+    font-size: 21px;
+    position: relative;
+    top: 20%;
+}
+.h{
+    font-size: 21px;
+    font-weight: bold;
+    float: left;
+    width: 10%;
+    color: #f1f1f1;
+    position: relative;
+    top: 30%;
+    left: 15%;
+}
+.h a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.fa{
+    position: relative;
+    top: 2px;
+    font-size: 25px;    
+}
+div.nav {
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 38px;
+    border: 1px solid white;  
+    position: sticky;
+    top: 80px;;
+    z-index: 1;  
+    background-color: white;
+}
+.navul{
+    display: block;
+    width: 92%;    
+    margin-left: 5%;   
+}
+li.btn{
+    padding-left: 6px;
+    display: block;
+    float: left;
+    list-style-type: none;
+    width: 11%;
+}
+li.btn a{
+    text-decoration: none;
+}
+.nfa{
+    font-size: 15px;
+}
+.dropdown1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    top:39px;
+    height: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: left;
+}
+.dropdown1 a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown1-L
+{
+    float: right;
+    position: relative;
+    bottom: 252px;
+}
+
+.dropdown2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    left: 275px;
+    top:39px;
+    height: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: left;
+}
+.dropdown2 a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown2-L
+{
+    float: right;
+    position: relative;
+    bottom: 252px;
+}
+.dropdown3 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    left: 425px;
+    top:39px;
+    height: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: left;
+}
+.dropdown3 a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown3-L
+{
+    float: right;
+    position: relative;
+    bottom: 252px;
+}
+
+.dropdown4 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    left: 583px;
+    top:39px;
+    height: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: left;
+}
+.dropdown4 a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown4-L
+{
+    float: right;
+    position: relative;
+    bottom: 252px;
+}
+.dropdown5 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    left: 740px;
+    top:39px;
+    height: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: left;
+}
+.dropdown5 a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown5-L
+{
+    float: right;
+    position: relative;
+    bottom: 252px;
+}
+.dropdown6 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    right: 523px;
+    top:39px;
+    height: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: left;
+}
+.dropdown6 a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown6-L
+{
+    float: right;
+    position: relative;
+    bottom: 252px;
+}
+
+
+.karosel{
+    display: block;
+    width: 100%;
+    height: 275px;
+    clear: both;
+    
+}
+.deals{
+    margin-right: 3%;
+    margin-left: 3%;
+     
+}
+
+.deal{
+    float: left;
+}
+.deals img{
+    width: 240px;
+    height: 240px;
+}
+.rate{
+    position: relative;
+    left: 72px;
+    font-size: 16px;
+}
+.del{
+    color: grey;
+}
+
+
+.deal:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.mob{
+    float: left;
+}
+.mobiles img{
+    width: 190px;
+    height: 190px;
+}
+.mobiles{
+    width: 100%;
+    overflow: hidden;
+    margin-right: 1%;
+    margin-left: 1%;   
+    box-shadow: 0px 8px 16px 4px rgba(0,0,0,0.4); 
+}
+.mob:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+.mobname{
+    position: relative;
+    left: 55px;
+    bottom: 15px;
+}

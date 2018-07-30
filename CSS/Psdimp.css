@@ -1,0 +1,249 @@
+body{
+    padding-left:  15%;
+    padding-right: 15%;
+
+}
+.sec{
+    width: 100%;
+    height:auto;
+}
+.sec1{
+    display: block;
+    width:50%;
+    float:left;
+}
+.sec2{
+    width:50%;
+    height:480;
+    float:left;
+}
+.sec1 img{
+	width: 450px;
+    height: 480px;
+    float:left;
+    border: 4px solid grey;
+}
+/*--------------------IMGSEC--------------------------*/
+.imgsec1{
+    width:100%;
+    height: auto;
+    position: relative;
+    top: 113px;
+}
+
+.rate{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.staricon{
+    margin: 0px;
+    padding: 0px;
+}
+.checked {
+    color:red;
+    padding: 0px;
+}
+/*-------------------------SHARE IT--------------------*/
+.fa {
+    
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  a.ic{
+        font-size: 40px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+     }
+  
+ 
+.fa:hover {
+    opacity: 0.6;
+}
+
+a.fa-facebook {
+    overflow: visible;
+    z-index: 0;
+  display: none;
+  background: #3B5998;
+  color: white;
+}
+
+a.fa-twitter {
+    overflow: visible;
+    z-index: 0;
+  display: none;
+  background: #55ACEE;
+  color: white;
+}
+
+a.fa-google {
+    overflow: visible;
+    z-index: 0;
+  display: none;
+  background: #dd4b39;
+  color: white;
+}
+
+a.fa-linkedin {
+    overflow: visible;
+    z-index: 0;
+  display: none;
+  background: #007bb5;
+  color: white;
+}
+
+a.fa-youtube {
+    z-index: 0;
+    overflow: visible;
+display: none;
+  background: #bb0000;
+  color: white;
+}
+
+/*------------------ E SHARE IT --------------*/
+
+
+.dot {
+    
+    position: relative;
+    bottom: 8px;
+    left: 7px;
+    height: 30px;
+    width: 30px;
+    background-color: #bbb;
+    border-radius: 100%;
+    display: inline-block;
+}
+.cbtn{
+        position: relative;
+        bottom: 8px;
+        left: 7px;
+        height: 30px;
+        width: 30px;
+        background-color: #bbb;
+        border-radius: 100%;
+        display: inline-block;
+}
+.colors_cbtn:hover{
+    color:red;
+}
+.in{    position: relative;
+    left: 10px;
+    top: 5;
+}
+.colors{
+    position: relative;
+    left: 92px;
+    bottom: 24px;
+}
+#cart{
+    font-size: 25px;
+    font-weight: bold;
+    background-color:#79d2a6;
+    border-radius:50px;
+    text-align: center;
+    width: 55%;
+    padding:10px;
+}
+/*--------------------SEC--------------------------*/
+.like{
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    top: 96px;
+    font-size: 30px;
+
+}
+
+/*--------------------IMGSEC1--------------------------*/
+.one{
+    position: relative;
+    bottom: 77px;
+    left: 141px;
+    background-color: #79d2a6;
+    width: 180px;
+}
+.imgsec11{
+    width:33%;
+    height: auto;
+    float: left;
+}
+.imgsec11 img{
+    border: 2px solid green;
+	width: 319px;
+    height: 398px;
+}
+
+.caption{
+    font-size: 28px;
+    position: relative;
+    bottom: 68px;
+    left: 39px;
+}
+.imgsec12{
+    
+    width:33%;
+    height: auto;
+    float: left;
+}
+.imgsec12 img{
+    border: 2px solid green;
+	width: 319px;
+    height: 398px;
+}
+.imgsec13{
+    width:33%;
+    height: auto;
+    float: left;
+}
+.imgsec13 img{
+    border: 2px solid green;
+	width: 319px;
+    height: 398px;
+}
+/*----------------------IMGSEC2-----------------*/
+.imgsec2{
+    position: relative;
+    top: 47px;
+    width: 100%;
+    height: auto;
+}
+.imgsec21{
+    
+    width:33%;
+    height: auto;
+    float: left;
+}
+.imgsec21 img{
+    border: 2px solid green;
+	width: 319px;
+    height: 398px;
+}
+.imgsec22{
+    width:33%;
+    height: auto;
+    float: left;
+}
+.imgsec22 img{
+    border: 2px solid green;
+	width: 319px;
+    height: 398px;
+}
+.imgsec23{
+    width:33%;
+    height: auto;
+    float: left;
+}
+.imgsec23 img{
+    border: 2px solid green;
+	width: 319px;
+    height: 398px;
+    position: relative;
+  
+}

@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <title>My PortFoilo</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="jquery.js"></script>
+
+        
+        <link rel="stylesheet" type="text/css" href="../CSS/slick.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/slick-theme.css">
+
+        <script src="../js/slick.js"></script>
+        <script>
+             $(document).ready(function(){
+                 $('#wrapper').slick({
+                    dots: true,
+                    arrows: true,
+                    autoplay: true,
+                    autoplayspeed:500
+                 });
+             });
+        </script>
+
+
+        <script>
+        $(document).ready(function(){
+            $("a.Aboutme").click(function(){
+                $("div.Education,div.Achievments,div.Hobbies,div.Activites,div.ContactMe").hide();
+                $("div.Aboutme").slideDown();
+                
+            });
+        });
+        $(document).ready(function(){
+            $("a.Education").click(function(){
+                $("div.Achievments,div.Hobbies,div.Activites,div.ContactMe,div.AboutMe").hide();
+                $("div.Education").show();
+            });
+        });
+        $(document).ready(function(){
+            $("a.Achievments").click(function(){
+                $("div.Education,div.Hobbies,div.Activites,div.Aboutme,div.ContactMe").hide();
+                $("div.Achievments").show();
+            });
+        });
+        $(document).ready(function(){
+            $("a.Hobbies").click(function(){
+                $("div.Education,div.Achievments,div.Activites,div.Aboutme,div.ContactMe").hide();
+                $("div.Hobbies").show();
+            });
+        });
+        $(document).ready(function(){
+            $("a.Activites").click(function(){
+                $("div.Education,div.Achievments,div.Hobbies,div.Aboutme,div.ContactMe").hide();
+                $("div.Activites").show();
+            });
+        });
+        $(document).ready(function(){
+            $("a.ContactMe").click(function(){
+                $("div.Education,div.Achievments,div.Hobbies,div.Activites,div.Aboutme").hide();
+                $("div.ContactMe").show();
+            });
+        });
+        </script>
+      
+    </head>
+    <body>
+        <h1 style="text-align: center">My PortFolio Details</h1>
+        <div class="nav">
+            <ul class="navul" >
+                <li class="btn"><a class ="Aboutme" href="#">AboutMe</a></li>
+                <li class="btn"><a href="#" class ="Education">Education</a></li>
+                <li class="btn"><a href="#" class ="Achievments">Achievments</a></li>
+                <li class="btn"><a href="#" class ="Hobbies">Hobbies</a></li>
+                <li class="btn"><a href="#" class ="Activites">Activities</a></li>  
+                <li class="btn"><a href="#" class ="ContactMe">ContactMe</a></li>              
+            </ul>
+        </div>
+        <div class="Aboutme" contenteditable="true">
+            <h2>AboutMe</h2>
+           <p> I'm Venkat and its a pleasure to meet you.</p>
+           <p>First of all, thank you for giving me an opportunity to introduce myself in front of you.</p>            
+           <p>My name is Venkat from Nellore Andhra Pradesh.</p>            
+           <p> I have completed my slcSLC from Hindu Vidyapeeth Nepal and also graduated my 12 from Classic college international.</p>            
+           <p> I'm 26 years old.</p>            
+           <p> My strength is hard working polite and responsible to work.</p>            
+           <p> I have 2 years work experience as a security guard in a rising security company.</p>        
+           <p> That's all. Thanks.</p>
+        </div>
+        <div class="Education">
+            <h2>Education</h2>
+                    <p>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes place under the guidance of educators, but learners may also educate themselves.[1] Education can take place in formal or informal settings and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called pedagogy.
+                    </p>
+                    <p>Education is commonly divided formally into such stages as preschool or kindergarten, primary school, secondary school and then college, university, or apprenticeship.
+                        </p>
+                    <p> A right to education has been recognized by some governments and the United Nations.[2] In most regions, education is compulsory up to a certain age.
+                    </p>
+               <table id="edu">
+                   <caption style="text-align: left">Educational Details:</caption>
+                   <tr>
+                       <th>S.No</th>
+                       <th>College</th>
+                       <th>Year Of Pass</th>
+                       <th>Percentage</th>
+                   </tr>
+                   <tr>
+                       <td>1.</td>
+                       <td>Audisankara Institute of Science and Technology</td>
+                       <td>2014</td>
+                       <td>73.25%</td>
+                   </tr>
+                   <tr>
+                        <td>2.</td>
+                        <td>Dr.&nbsp; B.S.R Junior College</td>
+                        <td>2010</td>
+                        <td>89.00%</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>MEDHA E.M. School</td>
+                        <td>2008</td>
+                        <td>78.89%</td>
+                    </tr>
+               </table>
+               <br>
+        </div>
+        <div class="Achievments">
+                <h2>Achievments</h2>
+               <ul class="achv">
+                <li>List of achievements</li>
+                <li>Re-organized something to make it work better</li>
+                <li>Identified a problem and solved it</li>
+                <li>Come up with a new idea that improved things</li>
+                <li>Developed or implemented new procedures or systems</li>
+                <li>Worked on special projects</li>
+                <li>Received awards</li>
+                <li>Been complimented by your supervisor or co-workers</li>
+                <li>Increased revenue or sales for the company</li>
+                <li>Saved money for the company</li>
+                <li>Saved time for the company</li>
+                <li>Contributed to good customer service</li>
+            </ul>
+            </div>
+            <div class="Hobbies">
+                    <h2>Hobbies</h2>
+                    <p style="text-indent: 100px">
+                        There are many types of hobbies we can develop such as dancing, singing, drawing, playing games, collecting stamps or antiques, photography, writing, eating, reading, sports, gardening, music, watching T.V, cooking, and so on. Our hobbies can help us to earn our live hood and make a successful career. Hobby is something we can enjoy fully in our free time.
+                    </p>
+                    <p style="text-indent: 100px"> 
+                        My favourite is cooking, listening music and gardening, however, I always prefer gardening it is like meditation to me which improves my work efficiency, interest and ability. It gives me a peace and happiness, makes my day useful. Every day in the morning I enjoy my blooming garden, growing plants slowly on daily basis. I also enjoy sun rise and sun set daily in my garden. 
+                    </p>
+                    <p style="text-indent: 100px"> 
+                        I generally like to do my school homework in my garden. I play games with my father daily in the evening in my garden. And enjoy an evening walk with my mother. I daily watch plants development and do watering the plant. I also try planting new and decorative plants to my garden in order to enhance its look and beauty.                    
+                    </p>
+                    <p style="text-indent: 100px">   
+                   I love to listen to music and it is my favourite hobby. At the free time and even during work I used to listen to music. As music relax the mind and reduces the stress from the mind. When I am working along with listening music, I finish my work very fast and easily without any disturbance. I like to listen to the soft and romantic music and songs.
+                    </p>                 
+                </div>
+                <div class="Activites">
+                        <h2>Activites</h2>
+                        <h3>15 Employee Engagement activities</h3>
+                        <ol>
+                         <li>Involve employees in your business planning process. ...</li>
+                         <li>Create a knowledge sharing system. ...</li>
+                         <li> Encourage knowledge sharing in a creative way. ...</li>
+                         <li>Show them the money. ...</li>
+                         <li>Encourage and provide learning opportunities. ...</li>
+                         <li>Mens sana in corpore sano. ...</li>
+                         <li> Have a hack night. ...</li>
+                        </ol>
+                        <p>Create excitement about upcoming opportunities.</p>
+                    </div>
+                    <div class="ContactMe" >
+                        <h2>ContactMe</h2>
+                        <p style:"font-size:20px"></p>I hope you have found my guides or cheat sheets usefull!
+
+                        Feel free to email me with any questions, comments or suggestions you may have regarding HTML or CSS, or even my website itself.
+                        
+                        You can email me at drgrog@simplehtmlguide.com
+                        <br>
+                        Ph.No:+91-9848022338<br>
+                        Drop me a mail at: &nbsp;&nbsp;&nbsp;&nbsp;<br>
+                        Email:<mark>mymail@gmail.com</mark>
+                        </p>
+                    </div><br>
+                    <div class="thing" id="wrapper">
+                            <div class="item"><img src="../images/scen2.jpg" alt="Los Angeles" style="width:100%;"></div>
+                            <div class="item"><img src="../images/scen1.jpg" alt="image at center" style="width:100%;"></div>
+                            <div class="item"><img src="../images/scen3.jpg" alt="New york" style="width:100%;"></div>
+                    </div>
+                   
+                 
+
+    </body>
+</html>
